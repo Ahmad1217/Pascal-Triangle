@@ -11,6 +11,7 @@ void pascal_triangle(int rows) {
 		}
 		printf("\n");
 	}
+	resetcolors();
 }
 
 int binomial(int n, int k) {
