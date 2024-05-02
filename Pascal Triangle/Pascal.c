@@ -1,6 +1,6 @@
 #include "screen.h"
 #include <stdio.h>
-
+//function defination for making the triangle
 void pascal_triangle(int rows) {
 	int i, k;
 	for (i = 0; i < rows; i++) {
@@ -13,7 +13,7 @@ void pascal_triangle(int rows) {
 	}
 	resetcolors();
 }
-
+//function defination for n-select k
 int binomial(int n, int k) {
 	return factorial(n) / factorial(k) / factorial(n - k);
 }
